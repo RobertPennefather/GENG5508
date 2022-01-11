@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/GF/CLionProjects/lab4/main.c
+stdio.h
+-
+eyebot.h
+C:/Users/GF/CLionProjects/lab4/eyebot.h
+image.c
+C:/Users/GF/CLionProjects/lab4/image.c
+stdbool.h
+-
+stdlib.h
+-
+
+C:/Users/GF/CLionProjects/lab4/try.c
+

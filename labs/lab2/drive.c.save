@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include "eyebot.h"
+#include <math.h>
+
+#define INTERVAL 0.1
+
+
+void SplineDrive(int x,int y, int alpha){
+	int px  = 0;
+	int py  = 0;
+	int Dpx = 1;
+	int Dpy = 0;
+	int pkx = x;
+	int pky = y;
+	int Dpkx=  ;
+	int Dpky=  ;
+
+	float currentpx
+	float currentpy
+	float currentangle
+
+	for(float  u =0 ; u <= 1; u += INTERVAL) {
+		float h0=
+		float h1=
+		float h2=
+		float h3=
+	
+	}
+
+}
+
+
+
+int main()
+{
+
+
+int waypoints[20][2];
+
+
+	return 0;
+}

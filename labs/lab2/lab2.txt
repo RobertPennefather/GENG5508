@@ -1,0 +1,73 @@
+Hermite splines
+
+implement curve driving from initial pose (position/orientation) to diesred pose
+
+void SplineDrive(int x,int y, int alpha);
+// x in robot's forward direction, y perpendicular (right HR)
+//relative disntance in mm; relative angle in deg
+
+int waypoints [20][2];
+
+int main(){
+FILE* file=fopen("way.txt". "r"); // open way.txt to read
+char line[256]; //create memory space between "    "
+int index =0;
+while (fgets(line, sizeof(line), file)){ //read each line until end of file
+char* split=strtok (line," "); //split line between spaces ""
+waypoints[index][0]=atol(split); //convert first part to int, store as x
+split =strtok {NULL, " "}; // get next part after space
+waypoints[index][1]=atol(split); //convert second part to int, store as y
+
+LCDPrintf("%i, %i\n", waypoints[index][0], waypoints[index][1]);
+index++;
+}
+fclose(file);
+while(1){};
+}
+
+
+------------------------------------------------------------------------
+#include <stdio.h>
+#include "eyebot.h"
+#include <math.h>
+
+#define INTERVAL 0.1
+int waypoints[20][2];
+void SplineDrive(int x,int y, int alpha){
+int ax=
+int ay=
+int dax=
+int day=
+int bx=
+int by=
+int dbx=
+int dby=
+
+float currentpx
+float currentpy
+float currentangle
+
+for(int u=0; u<=1; u+=INTERVAL]{
+float h0=
+float h1=
+float h2=
+float h3=
+
+float px=
+float py=
+
+float dh0= 6*pow(u,2)-6*u;
+float dh1=
+float dh2=
+float dh3=
+
+float dpx=
+float dpy=
+
+float angle=atan2(dpy,dpx)*180/M_PI
+
+//robot to do something
+
+currentpx= px
+currentpy=py
+currentangle=angle

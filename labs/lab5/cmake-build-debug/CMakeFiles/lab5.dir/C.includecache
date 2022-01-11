@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/GF/CLionProjects/lab5/image.c
+eyebot.h
+C:/Users/GF/CLionProjects/lab5/eyebot.h
+
+C:/Users/GF/CLionProjects/lab5/lab-gf.c
+stdio.h
+-
+math.h
+-
+eyebot.h
+C:/Users/GF/CLionProjects/lab5/eyebot.h
+image.c
+C:/Users/GF/CLionProjects/lab5/image.c
+
+C:/Users/GF/CLionProjects/lab5/main.c
+stdio.h
+-
+eyebot.h
+C:/Users/GF/CLionProjects/lab5/eyebot.h
+image.c
+C:/Users/GF/CLionProjects/lab5/image.c
+stdbool.h
+-
+stdlib.h
+-
+math.h
+-
+stdbool.h
+-
+windef.h
+-
+
